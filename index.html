@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>Remix: Remix: Aula 8</title>
+    <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+        <script src="gamelab-api.js"></script>
+    <link href="gamelab.css" rel="stylesheet" type="text/css">
+    <script src="p5.js"></script>
+    <script src="p5.play.js"></script>
+    <script src="code.js"></script>
+    <style>
+      body.expo {
+        background-color: black;
+      }
+      #sketch.expo.no-controls {
+        top: 82px;
+      }
+    </style>
+  </head>
+  <body class="web" style="margin:0; overflow:hidden; user-select:none; -webkit-user-select:none; -webkit-touch-callout:none; position:fixed; top:0; left:0; width:400px; height:565px;">
+    <div id="sketch" class="web" style="position:absolute;"></div>
+    <div id="soft-buttons" style="display: none">
+      <button id="leftButton" disabled className="arrow">
+      </button>
+      <button id="rightButton" disabled className="arrow">
+      </button>
+      <button id="upButton" disabled className="arrow">
+      </button>
+      <button id="downButton" disabled className="arrow">
+      </button>
+    </div>
+    <div id="studio-dpad-container" style="position:absolute; width:400px; bottom:5px; height:157px; overflow-y:hidden;">
+    </div>
+  </body>
+</html>
